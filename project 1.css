@@ -1,0 +1,202 @@
+#overall{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url(fto.png);
+    background-size: cover;
+}
+#kontainer1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px; 
+    margin-right: 70px;
+    justify-content: center;
+    width:100%;
+    background: rgba(77, 72, 80, 0.6);
+
+}
+#menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    margin-left: 17px;
+}
+#contact{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    margin-left: 20px;
+    text-decoration: none;
+}
+#con{
+    text-decoration: none;
+}
+#konz{
+    margin-right: 5px;
+    margin-left: 1150px;
+}
+#profile {
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    justify-items: center;
+    align-items: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    align-content: center;
+    border: 2px, solid, beige;
+
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 245, 220);
+}
+
+#desc {
+    font-size: 14px;
+    color: rgba(245, 245, 220, 0.8);
+    margin-top: -20px;
+} 
+#container-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+#content1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 25px;
+    color: rgb(245, 245, 220);
+}
+#tipe{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+#hajarml{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+#hajar2{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+#hajar3{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    gap: 25PX;
+    filter:grayscale(50%);
+}
+#img1{
+    width: 300px;
+    height: fit-content;
+    border: solid beige 3px;
+    border-radius: 4%;
+    transition: transform 0.2s ease-in-out;
+}
+#img1:hover{
+    transform: scale(1.020);
+    opacity: 78%;
+}
+#img2{
+    width: 300px;
+    height: 200px;
+    border: solid beige 3px;
+    border-radius: 4%;
+    transition: transform 0.2s ease-in-out;
+}
+#img2:hover{
+    transform: scale(1.020);
+    opacity: 78%;
+}
+#img3{
+    width: 300px;
+    height: 200px;
+    border: solid beige 3px;
+    border-radius: 4%;
+    transition: transform 0.2s ease-in-out;
+}
+#img3:hover{
+    transform: scale(1.020);
+    opacity: 78%;
+}
+#ig{
+    width: 25px;;
+    height: fit-content;
+    margin-right: 20px;
+    margin-top: 3px;
+    transition: transform 0.2s ease-in-out;
+}
+#ig:hover{
+    transform: scale(1.2);
+}
+#kotak{
+    background-color: beige;
+    width: 350px;
+    height:400px;
+    opacity: 50%;
+   margin-left:90PX;
+   margin-top: -35PX;
+   border-radius:5%;}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    color: black;
+}
+#aboutme{
+    margin: 25px;
+    margin-top: -5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    justify-content:center
+}
+#favsong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 48px;
+    margin-top: -140PX;
+    color: rgb(245, 245, 220);}
+#wave{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    margin-top: -4px;
+    
+}
+#wave2{
+    width:150px;
+    height: max-content;
+    margin-top: -63px;
+    margin-left: 46px;
+}
+#blue{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:beige;
+    align-items: top;
+    margin-top: 1px;
+    font-size: 16px;
+    margin-left: 48px;
+}
+#daddy{
+    margin-left: 42px;
+    margin-top: -35px;
+}
